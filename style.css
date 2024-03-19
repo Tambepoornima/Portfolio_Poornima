@@ -1,73 +1,67 @@
-*{
+* {
 	padding: 0;
 	margin: 0;
-}
-.portfolio-section{
+  }
+  .portfolio-section {
 	height: 650px;
 	padding-top: 20px;
 	width: 100%;
 	/* border: 2px solid black; */
 	text-align: center;
 	background-color: whitesmoke;
-}
-.navigation-bar{
+  }
+  .navigation-bar {
 	position: fixed;
 	top: 0px;
 	width: 100%;
 	background-color: transparent;
 	backdrop-filter: blur(10px);
 	z-index: 1;
-
-}
-
-.portfolio-section h1{
+  }
+  
+  .portfolio-section h1 {
 	margin-top: 50px;
-}
-html{
+  }
+  html {
 	scroll-behavior: smooth;
-}
-.main-container{
+  }
+  .main-container {
 	position: relative;
 	top: 75px;
-}
-.brand{
+  }
+  .brand {
 	font-size: 30px;
 	font-family: Arial Black;
 	font-variant: small-caps;
 	color: orangered;
 	transition: color 0.5s ease, transform 0.5s ease;
-	
-}
-
-.brand:hover{
+  }
+  
+  .brand:hover {
 	color: orangered;
 	transform: scale(1.5);
-
-}
-
-.navmenu{
+  }
+  
+  .navmenu {
 	color: black;
 	font-size: 20px;
 	font-family: sans-serif;
 	font-weight: bolder;
 	padding-left: 15px;
-
-
-}
-
-.navmenu:hover{
+  }
+  
+  .navmenu:hover {
 	text-decoration: underline 2px solid red;
 	text-underline-offset: 6px;
-
-}
-
-.tracking-in-expand {
-	-webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-	        animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-}
-
-
- @-webkit-keyframes tracking-in-expand {
+  }
+  
+  .tracking-in-expand {
+	-webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1)
+	  both;
+	animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  }
+  
+  @-webkit-keyframes tracking-in-expand {
 	0% {
 	  letter-spacing: -0.5em;
 	  opacity: 0;
@@ -92,20 +86,17 @@ html{
 	}
   }
   
-
-
-
-#home{
+  #home {
 	height: 470px;
 	background-image: url(https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif);
 	background-repeat: no-repeat;
 	background-size: 45%;
-	background-position: 100% 100% ;
+	background-position: 100% 100%;
 	border: none;
-	background-color:white; 
-    backdrop-filter: blur(10px);
-}
-#home-info{
+	background-color: white;
+	backdrop-filter: blur(10px);
+  }
+  #home-info {
 	position: absolute;
 	top: 130px;
 	width: 400px;
@@ -113,24 +104,23 @@ html{
 	font-size: 25px;
 	margin-top: 50px;
 	margin-left: 80px;
-}
-
-
-.info{
+  }
+  
+  .info {
 	font-weight: bolder;
 	color: black;
 	font-weight: bolder;
 	width: 150px;
-    padding-top: 95px;
-}
-
-.designation{
+	padding-top: 95px;
+  }
+  
+  .designation {
 	color: rebeccapurple;
 	font-size: 25px;
 	font-weight: bolder;
-}
-
-.rsmbtn{
+  }
+  
+  .rsmbtn {
 	height: 40px;
 	width: 100px;
 	border: none;
@@ -140,195 +130,200 @@ html{
 	font-weight: bolder;
 	background-color: royalblue;
 	color: white;
-	transition-duration: 1s ;
-}
-
-.rsmbtn:hover{
+	transition-duration: 1s;
+  }
+  
+  .rsmbtn:hover {
 	background-color: white;
 	color: black;
 	border: 3px solid purple;
 	transform: scale(1.1);
-}
-
-.myname{
-	color:rgb(222, 29, 62);
+  }
+  
+  .myname {
+	color: rgb(222, 29, 62);
 	transition-duration: 1s;
 	font-family: Arial Black;
-}
-
-.myname:hover{
+  }
+  
+  .myname:hover {
 	color: transparent;
 	-webkit-text-stroke: 1px orangered;
-}
-.heading{
+  }
+  .heading {
 	font-family: sans-serif;
 	text-align: center;
 	margin: 0px 0px;
 	font-size: 40px;
 	color: brown;
-}
-
-.careerinfo{
+  }
+  
+  .careerinfo {
 	text-align: justify;
 	line-height: 40px;
 	text-indent: 100px;
 	word-spacing: 7px;
 	letter-spacing: 1px;
-}
-.about-section{
+  }
+  .about-section {
 	height: 500px;
 	width: 100%;
 	background-color: whitesmoke;
-}
-.aboutmain{
+  }
+  .aboutmain {
 	height: 300px;
 	width: 100%;
 	display: flex;
 	font-size: 25px;
 	font-family: sans-serif;
 	font-weight: bold;
-	
-
-}
- .aboutmain div{
+  }
+  .aboutmain div {
 	height: 450px;
 	width: 50%;
-	
-} 
-
-.careerobj{
+  }
+  
+  .careerobj {
 	padding-top: 100px;
 	padding-right: 30px;
-	
-	
-}
-
-.myimage{
+  }
+  
+  .myimage {
 	margin-top: 20px;
 	margin-left: 20px;
-
+  
 	animation-duration: 1.5s;
 	animation-name: zoom;
 	animation-iteration-count: 1;
-}
-@keyframes zoom {
-	100%{transform: scale(1.2);
-		border-radius: 60px;}
-	
-}
-#Skills{
-	height:400px;
-	width:100%;
+  }
+  @keyframes zoom {
+	100% {
+	  transform: scale(1.2);
+	  border-radius: 60px;
+	}
+  }
+  #Skills {
+	height: 400px;
+	width: 100%;
 	background-color: white;
-
-}
-.tbl{
+  }
+  .tbl {
 	margin-left: 5%;
-}
-.tbl tr td{
+  }
+  .tbl tr td {
 	padding: 40px;
-	border-radius: 10PX;
+	border-radius: 10px;
 	box-shadow: 0px 0px 5px royalblue;
 	transition-duration: 1.5s;
-
-}
-.skills-subheading{
+  }
+  .skills-subheading {
 	color: orangered;
 	font-family: sans-serif;
 	font-weight: bolder;
 	font-size: 25px;
 	font-variant: small-caps;
-}
-
-.deatiledskills{
+  }
+  
+  .deatiledskills {
 	font-size: 23px;
 	font-weight: bolder;
 	color: rgb(109, 101, 101);
 	line-height: 40px;
 	word-spacing: 3px;
 	margin-top: 20px;
-}
-
-.projects{
+  }
+  
+  .projects {
 	height: 500px;
 	width: 90px;
 	margin: 20px;
-
-}
-.heading{
+  }
+  .heading {
 	padding-bottom: 20px;
-}
-
-.project-card-container{
+  }
+  
+  .project-card-container {
 	padding: 2px;
 	margin: 30px;
-}
-.card-title{
+  }
+  .card-img-top {
+	height: 400px;
+  }
+  .card-deck {
+	height: 50px;
+	width: 100%;
+	border-radius: 10px;
+  }
+  .card {
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+	  rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+	  rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  }
+  .card-title {
 	color: orangered;
 	text-align: center;
 	font-family: sans-serif;
 	font-weight: bolder;
-
-}
-.card-title:hover{
+  }
+  .card-title:hover {
 	text-decoration: underline 2px solid orangered;
 	text-underline-offset: 5px;
-	cursor:pointer;
-
-}
-.contacts-section{
+	cursor: pointer;
+  }
+  .contacts-section {
 	height: 500px;
 	width: 100px;
 	background-color: whitesmoke;
 	padding: 10px;
-}
-
-.main-container{
+  }
+  
+  .main-container {
 	height: 450px;
 	width: 80%;
 	display: flex;
 	margin-left: 10px;
-	
-}
-.contact-child{
+  }
+  .contact-child {
 	height: 350px;
 	width: 100%;
-}
-
-.contact-info{
+  }
+  
+  .contact-info {
 	font-size: 18px;
 	font-family: sans-serif;
 	font-weight: bolder;
 	margin-top: 70px;
-}
-
-.contact-info li{
+  }
+  
+  .contact-info li {
 	margin-top: 20px;
-}
-
-.contact-form{
+  }
+  
+  .contact-form {
 	padding-top: 30px;
 	margin-bottom: 50px;
 	margin-left: 200px;
-}
-
-.submit-button{
+  }
+  
+  .submit-button {
 	height: 40px;
 	width: 100px;
 	border: none;
-	margin-top: 20px;
 	border-radius: 10px;
 	font-size: 15px;
 	font-weight: bolder;
 	background-color: royalblue;
 	color: white;
-	transition-duration: 1s ;
-}
-
-
-.submit-button:hover{
+	transition-duration: 1s;
+  }
+  
+  .submit-button:hover {
 	background-color: white;
 	color: black;
 	border: 3px solid purple;
 	transform: scale(1.2);
-}
+  }
+  
+  .form-group {
+	width: 300px;
+  }
